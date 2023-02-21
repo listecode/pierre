@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 .line1{
     animation: rotate 4s infinite;
 }
