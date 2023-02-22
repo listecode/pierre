@@ -6,59 +6,67 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite App</title>
   </head>
-  <body class="place-items-center">
+  <body class="grid place-items-center">
     <header></header>
     <main>
       <!-- silas -->
-      <section class="section1 grid h-[300vh] bg-cover bg-scroll p-8">
-        <img class="col-start-1 row-start-1" src="img/filmfoto.jpeg" alt="" />
-        <div class="col-start-1 row-start-1 ml-auto mr-auto max-w-6xl">
-          <h1 class="text-center text-4xl text-red-700">Pierre Falcke</h1>
-          <h2 class="bg-black text-center text-4xl text-white">Uperfekt er perfekt</h2>
-          <!-- madelene -->
-          <section class="sektion2">
-            <div class="w-100 sticky top-0 mt-3 flex bg-white">
-              <p>Du ved formentligt ikke hvem han er. Men indtil for kort tid siden, så du hans værker et par gange om dagen, hver dag, året rundt. Pierre Falcke var en af verdens bedst sælgende stock-fotografer, og han solgte over 2 millioner fotos om året. Men Pierre kunne ikke drømme om at bruge sine egne fotos - faktisk kan han ikke fordrage sit eget arbejde.</p>
-              <img src="" alt="" />
-            </div>
-            <div class="w-100 sticky top-0 mt-3 flex bg-white">
-              <h3>Pierres berømmelse</h3>
-              <p>Pierres interesse for foto startede som ganske ung - som 10-årig fik han sin fars gamle Rollei-kamera, og begyndte at skyde løs. Det var før den digitale revolution, så alle Pierres lommepenge blev brugt på filmruller og fremkaldelse af film. Pierre fortsatte med at fotografere på film op gennem gymnasietiden. </p>
-            </div>
-            <div class="w-100 sticky top-0 mt-3 flex bg-white">
-              <p>Pierre over til digital fotografering i starten af 2000’erne, da han begyndte at studere fotografisk kommunikation på DMJX. Her åbnede en ny verden sig: Reklamefotografering i studie, lyssætning og manipulering af billeder i Photoshop blev hans nye stil. </p>
-              <img src="" alt="" />
-            </div>
-            <div class="w-100 sticky top-0 mt-3 flex bg-white">
-              <p>På det tidspunkt var stock-foto industrien i starten af en revolution: De første online stock-foto websites begyndte at komme på markedet, men de store, etablerede spillere på markedet holdt lidt igen. Pierre så det for sig: “Om ganske få år er hele branchen digital, og dem der ikke hopper med på den digitale vogn, lukker.”</p>
-            </div>
-          </section>
-        </div>
-      </section>
-
-      <section class="sektion3"></section>
-
-      <section class="sektion4 flex h-max place-content-center items-center bg-cover py-24" style="background-image: url(img/lomo-smena.jpg)">
-        <div class="grid h-4/5 w-4/5 bg-white p-10">
-          <h2>En skillevej</h2>
-          <div class="grid grid-cols-2 gap-2">
-            <div class="grid gap-1">
-              <p>Pierre tjente godt det følgende årti. Men stille og roligt begyndte billederne også at give ham kvalme. Han kunne ikke holde sit eget arbejde ud, og måtte finde et modsvar til alle de blankpolerede fotos. Noget han kunne lave med stolthed. Pierre bestluttede sig for at droppe stock-fotos, og vende tilbage til rødderne. </p>
-
-              <p>Han søgte inspiration i analog fotografering, i Lomo-bevægelsen, Glitch art og polaroid fotografering, og begyndte stille og roligt at skabe sig en ny stil - en stil med fokus på det uperfekte, og hvor der er et uforudsigeligt element i det at tage billeder. </p>
-
-              <p>Pierre tog det endda så vidt at han ikke kun droppede at tage stock-fotos. Han fjernede også alle stock-fotos fra de tjenester, han solgte sine fotos hos. Han gik fra at være en god forretningsdrivende til at blive en vaskeægte boheme-type på rekordtid.</p>
-            </div>
-            <div class="flex items-center justify-center">
-              <img class="w-3/5" src="img/gammel-film.jpg" alt="en skillevej" />
-            </div>
+      <section class="section1 h-screen bg-scroll p-8" style="background-image: url(img/filmfoto.jpeg)">
+        <h1 class="text-center text-4xl text-red-700">Pierre Falcke</h1>
+        <h2 class="bg-black text-center text-4xl text-white">Uperfekt er perfekt</h2>
+        <!-- madelene -->
+        <section class="sektion2">
+          <div>
+            <p>Du ved formentligt ikke hvem han er. Men indtil for kort tid siden, så du hans værker et par gange om dagen, hver dag, året rundt. Pierre Falcke var en af verdens bedst sælgende stock-fotografer, og han solgte over 2 millioner fotos om året. Men Pierre kunne ikke drømme om at bruge sine egne fotos - faktisk kan han ikke fordrage sit eget arbejde.</p>
+            <img src="" alt="" />
           </div>
+          <div>
+            <h3>Pierres berømmelse</h3>
+            <p>Pierres interesse for foto startede som ganske ung - som 10-årig fik han sin fars gamle Rollei-kamera, og begyndte at skyde løs. Det var før den digitale revolution, så alle Pierres lommepenge blev brugt på filmruller og fremkaldelse af film. Pierre fortsatte med at fotografere på film op gennem gymnasietiden. </p>
+          </div>
+          <div>
+            <p>Pierre over til digital fotografering i starten af 2000’erne, da han begyndte at studere fotografisk kommunikation på DMJX. Her åbnede en ny verden sig: Reklamefotografering i studie, lyssætning og manipulering af billeder i Photoshop blev hans nye stil. </p>
+            <img src="" alt="" />
+          </div>
+          <div>
+            <p>På det tidspunkt var stock-foto industrien i starten af en revolution: De første online stock-foto websites begyndte at komme på markedet, men de store, etablerede spillere på markedet holdt lidt igen. Pierre så det for sig: “Om ganske få år er hele branchen digital, og dem der ikke hopper med på den digitale vogn, lukker.”</p>
+          </div>
+        </section>
         </div>
-      </section>
-      <section class="sektion5"></section>
 
-      <section class="sektion6 sticky">
-        <div class="viewinsection6 sticky top-1/4 grid place-content-end gap-3">
+<!-- sarah -->
+      <section class="sektion3  bg-black">
+      <div class="mx-24 pt-8  lg:grid grid-cols-2 grid-rows-1 md:grid grid-rows-1 sm:flex flex-auto"> 
+        <div class="w-10/12 h-10/12 md:shrink-0 justify-center"><img src="img/godt-arbejde.jpg" alt="" srcset=""></div>
+        <div class="pt-8"><h1 class="text-white mb-9 font-bold text-xl">Hvad er stock-fotos?</h1><p class="text-white">
+          Stock-fotos er billeder, der kan købes fra et foto-website. De bruges af aviser, til markedsføring og som indhold på websites. En licens til at bruge et foto koster typisk mellem 10 og 100 kroner, alt afhængig af hvad de skal bruges til. 
+          </p></div>
+          <div class="line1 container mx-auto pt-20 pb-7"><img src="img/line1.svg" alt="" srcset=""></div>
+        
+      </div>
+           <div class="mx-24 pt-12 pb-12  lg:grid grid-cols-2 grid-rows-1 md:grid grid-cols-2 grid-rows-1 sm:flex flex-auto">
+      <div class="pt-8"><p class="text-white prose">Stock-fotos bliver ofte kritiseret for at være uden sjæl - det er de der billeder af en læge i hvid kittel med stetoskop om halsen på en meget hvid baggrund eller en meget glad dame fra virksomhedens salgs- eller supportafdeling. 
+Stock-fotos har eksisteret i mange år. Før branchen blev digital, tilbød stock-foto virksomhederne billedmapper, der kunne bestilles fra. Men stock-foto branchen var én af de tidlige til at blive fuldt digitaliseret.
+     </p></div> 
+     <div class="w-10/12 h-10/12 md:shrink-0 "><img src="img/arbejde.jpg" alt="" srcset=""><img class="" src="img/arbejde-2.jpg" alt="" srcset=""></div>
+          </div>
+        </div></section>
+
+      <section class="sektion4"></section>
+
+      <section class="sektion5 bg-black container">
+        <div class="mx-24 pt-12 pb-12  lg:grid grid-cols-2 grid-rows-1 md:grid grid-cols-2 grid-rows-1 sm:flex flex-auto">
+          <div class="pt-8"> <h1 class="text-white mb-9 font-bold text-xl">Analog fotografering</h1><p class="text-white prose">Fotografering med gode, gammeldags filmruller. Analog fotografering stiger for tiden i popularitet, specielt blandt unge, og prisen på filmruller og vintage-kameraer skyder i vejret. Mange fotografer synes at film-fotografering er mere ægte har mere “sjæl.” Analog fotografering er langsommmere, hvert enkelt billede koster penge, og man bliver nødt til at overveje motiv og lys grundigere før der skydes - tænk før du trykker. 
+            Analog fotografering kan gå galt mange steder i processen, og det giver også mulighed for at eksperimentere med “det uperfekte og uforudsigelige i processen.” Man kan f.eks. skyde på for gamle filmruller, arbejde med forskellige teknikker som “lens whacking” og filtre/ting foran objektivet, og man kan pille ved de kemiske processer under fremkaldelse af filmen.
+            [Reference: https://www.dr.dk/nyheder/kultur/analoge-billeder-hitter-paa-sociale-medier ]
+            </p></div> 
+         <div class="w-10/12 h-10/12 md:shrink-0 "><img src="img/pierre-2.jpg" alt="" srcset=""></div>
+         <div class="line1 container mx-auto pt-20 pb-7"><img src="img/line1.svg" alt="" srcset=""></div></div>
+            </div>
+
+      </section>
+
+      <section class="sticky">
+        <div class="viewinsection6 sticky top-1/4 grid place-content-end">
           <p class="section6-element1 pr-2">1. Tag kameraet med overalt</p>
           <p class="section6-element2">2. Brug det på alle tidspunkter – dag og nat</p>
           <p class="section6-element3">3. Lomografi er ikke en forstyrrelse af dit liv, men en del af det</p>
